@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Digital'; /* Give your font a unique name */
+  src: url('font/digital-7.ttf') format('truetype'); /* Specify the path and format */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Optional, helps with performance and prevents a blank screen while loading */
+}
+body {
+    margin: 0;
+    background-color: #d9e8de;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #182042;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    border: 4px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px 40px;
+    display: flex;
+    color: #f8f3f5;
+    gap: 100px;
+}
+
+.score-board {
+    flex: 1;
+    text-align: center;
+}
+.score-board h3 {
+    font-size: 2.6rem;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.score-board .score-box {
+    margin-top: 20px;
+    font-size: 6rem;
+    font-family: 'Digital', monospace;
+    background-color: #090000;
+    color: #f64661;
+    border-radius: 10px;
+    padding: 20px;
+    width: 140px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.btn {
+    padding: 5px 10px;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #acb8da;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border : 2px solid #acb8da;
+    margin:0 5px;
+    font-family: Digital, monospace;
+}
